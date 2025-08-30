@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -6,11 +6,11 @@
   <title>MSHALE-IT-TECH — Online Cyber Services</title>
   <style>
     :root{
-      --bg:#0f1724; /* deep navy */
+      --bg:#0f1724; 
       --card:#0b1220;
-      --accent1:#6EE7B7; /* mint */
-      --accent2:#60A5FA; /* sky */
-      --accent3:#F472B6; /* pink */
+      --accent1:#6EE7B7;
+      --accent2:#60A5FA;
+      --accent3:#F472B6;
       --muted:#9AA6B2;
       --glass:rgba(255,255,255,0.04);
       --radius:14px;
@@ -48,6 +48,30 @@
     .vpn{margin-top:12px;padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(96,165,250,0.06), rgba(244,114,182,0.03));border:1px solid rgba(255,255,255,0.03)}
     .pricing{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
     .price{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:8px;font-weight:700}
+
+    /* Cybersecurity Tools Section */
+    .cybertools{
+      margin-top:30px;
+      background:green;
+      border-radius:14px;
+      padding:60px 20px;
+      text-align:center;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .cybertools a{
+      color:white;
+      font-size:28px;
+      font-family:Arial, sans-serif;
+      text-decoration:none;
+      font-weight:bold;
+      background:rgba(0,0,0,0.3);
+      padding:15px 25px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+    .cybertools a:hover{background:rgba(255,255,255,0.2)}
 
     footer{margin-top:26px;padding:16px;border-radius:10px;background:linear-gradient(180deg,transparent, rgba(255,255,255,0.01));display:flex;justify-content:space-between;align-items:center;font-size:14px}
     a.whitelink{color:var(--muted);text-decoration:none}
@@ -147,6 +171,13 @@
           <div class="item"><div class="pulse"></div>Premium apps available — no subscription</div>
         </div>
       </div>
+    </section>
+
+    <!-- New Cybersecurity Tools Section -->
+    <section class="cybertools">
+      <a href="https://mshale254.github.io/Mshale-online-cyber-services/#services">
+        Free Cybersecurity & Defensive Tools
+      </a>
     </section>
 
     <footer>
