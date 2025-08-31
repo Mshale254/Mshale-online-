@@ -356,8 +356,7 @@ footer small{color:var(--muted)}
       <div style="text-align:right">
         <div style="font-weight:700">Contact</div>
         <a class="whitelink" href="https://wa.me/254729829406" target="_blank">+254 729 829 406 (WhatsApp)</a>
-      </div>
-    </header>
+      
 
     <section class="hero">
       <div class="hero-left">
