@@ -93,9 +93,7 @@ footer small{color:var(--muted)}
   nav{gap:.6rem}
 }
 
-  </style>
-</head>
-<body>
+
   <!-- Header -->
   <header>
     <div class="container">
@@ -447,4 +445,4 @@ footer small{color:var(--muted)}
     </footer>
   </div>
 </body>
-</html>
+
